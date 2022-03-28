@@ -1,11 +1,11 @@
-name: Pinata Uploader
-description: Publish files to IPFS using Pinata
+name: Pin with Pinata
+description: Pin files using Pinata
 branding:
   icon: upload-cloud
   color: green
 inputs:
-  path:
-    description: Path to publish
+  cid:
+    description: IPFS CID to publish
     required: true
   key:
     description: Pinata key
