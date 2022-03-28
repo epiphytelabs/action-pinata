@@ -1,0 +1,21 @@
+name: Pinata Uploader
+description: Publish files to IPFS using Pinata
+branding:
+  icon: upload-cloud
+  color: green
+inputs:
+  path:
+    description: Path to publish
+    required: true
+  key:
+    description: Pinata key
+    required: true
+  secret:
+    description: Pinata secret
+    required: true
+outputs:
+  name:
+    description: IPNS name
+runs:
+  using: node16
+  main: index.js

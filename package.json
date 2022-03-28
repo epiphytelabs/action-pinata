@@ -1,0 +1,17 @@
+{
+	"name": "action-pinata",
+	"version": "0.0.1",
+	"description": "Publish using Pinata",
+	"main": "index.js",
+	"scripts": {
+		"lint": "prettier --check index.js"
+	},
+	"dependencies": {
+		"@actions/core": "^1.6.0",
+		"@actions/github": "^5.0.0",
+		"@pinata/sdk": "^1.1.23"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.1"
+	}
+}
